@@ -8,7 +8,7 @@ document.getElementById('estudios').onclick = function () {
 }
 
 document.getElementById('experiencia').onclick = function () {
-    document.getElementById("generalContent").innerHTML = "11 años de diseño gráfico";
+    document.getElementById("generalContent").innerHTML = "11 años de diseño gráfico (que no se notan acá, lo sé ;)";
 }
 
 document.getElementById("tester").addEventListener('click', function () {
