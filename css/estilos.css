@@ -1,0 +1,115 @@
+html {
+    box-sizing: border-box
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    background-color: darkorange;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    color: darkorange;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+li:hover {
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: #111;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 0.1em;
+    align-self: flex-end;
+}
+
+/** El siguiente estilo corresponde a los elementos h1 */
+h1 {
+    font-size: 3em;
+}
+
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(241, 166, 104);
+    font-size: 15px;
+}
+
+#foto {
+    width: 50%;
+    max-width: 300px;
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 300px;
+    background-color: darkorange;
+}
+
+section:hover {
+    background-color: white;
+}
+
+#secciones {
+    float: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #foto {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #nombre {
+        text-align: center;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
